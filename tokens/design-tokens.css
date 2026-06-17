@@ -1,0 +1,57 @@
+/* GPartner Consulting — Design Tokens
+ * Fuente: gpartnerc.com + documentos corporativos oficiales
+ * Tipografía oficial: Arial (sistema). Fallback web: Inter / Helvetica Neue / sans-serif.
+ */
+
+:root {
+  /* ── Colores de marca ── */
+  --gp-navy: #1B3A6B;          /* Primario */
+  --gp-green: #2D8A4E;         /* Secundario */
+  --gp-red: #C0392B;           /* Acento */
+
+  /* ── Neutros ── */
+  --gp-bg-light: #EBF0F8;
+  --gp-text: #4A4A4A;
+  --gp-white: #FFFFFF;
+
+  /* ── Variantes vivas del logo (pantalla) ── */
+  --gp-navy-vivid: #193F70;
+  --gp-green-vivid: #02953A;
+  --gp-red-vivid: #E40D36;
+  --gp-navy-deep: #0A1B35;
+
+  /* ── Roles semánticos ── */
+  --gp-color-primary: var(--gp-navy);
+  --gp-color-secondary: var(--gp-green);
+  --gp-color-accent: var(--gp-red);
+  --gp-color-bg: var(--gp-white);
+  --gp-color-surface: var(--gp-bg-light);
+  --gp-color-text: var(--gp-text);
+  --gp-color-heading: var(--gp-navy);
+  --gp-color-on-primary: var(--gp-white);
+
+  /* ── Tipografía ── */
+  --gp-font-base: Arial, "Helvetica Neue", Inter, sans-serif;
+  --gp-font-heading: Arial, "Helvetica Neue", Inter, sans-serif;
+  --gp-h1-size: 2.75rem;   /* ~44px cover/title */
+  --gp-h2-size: 1.5rem;    /* ~24px */
+  --gp-h3-size: 1.3125rem; /* ~21px, en verde */
+  --gp-body-size: 1rem;
+  --gp-weight-bold: 700;
+  --gp-weight-regular: 400;
+  --gp-tracking-caps: 0.08em; /* mayúsculas con tracking, estilo del wordmark */
+
+  /* ── Layout ── */
+  --gp-radius: 4px;
+  --gp-radius-lg: 10px;
+  --gp-border-strong: 3px solid var(--gp-navy);
+}
+
+/* Ejemplos de aplicación */
+h1, h2 { color: var(--gp-color-heading); font-family: var(--gp-font-heading); font-weight: var(--gp-weight-bold); }
+h3 { color: var(--gp-green); text-transform: uppercase; letter-spacing: var(--gp-tracking-caps); }
+body { color: var(--gp-color-text); font-family: var(--gp-font-base); background: var(--gp-color-bg); }
+.gp-banner { background: var(--gp-navy); color: var(--gp-white); text-transform: uppercase; font-weight: 700; }
+.gp-btn-primary { background: var(--gp-navy); color: var(--gp-white); border-radius: var(--gp-radius); }
+.gp-btn-accent { background: var(--gp-red); color: var(--gp-white); border-radius: var(--gp-radius); }
+.gp-stripe { background: linear-gradient(90deg, var(--gp-red) 0 50%, var(--gp-green) 50% 100%); height: 6px; }

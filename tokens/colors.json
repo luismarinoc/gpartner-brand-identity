@@ -1,0 +1,57 @@
+{
+  "brand": "GPartner Consulting",
+  "source": "gpartnerc.com + documentos corporativos oficiales",
+  "palette": {
+    "primary": {
+      "name": "Navy GPartner",
+      "hex": "#1B3A6B",
+      "rgb": [27, 58, 107],
+      "use": "Color principal. Titulares, banners, encabezados, wordmark, fondos oscuros."
+    },
+    "secondary": {
+      "name": "Verde GPartner",
+      "hex": "#2D8A4E",
+      "rgb": [45, 138, 78],
+      "use": "Color secundario. Subtítulos, descriptor 'Technology Partner', detalles, acentos positivos."
+    },
+    "accent": {
+      "name": "Rojo GPartner",
+      "hex": "#C0392B",
+      "rgb": [192, 57, 43],
+      "use": "Acento. Franja decorativa, separador, llamadas de atención puntuales."
+    },
+    "neutral": {
+      "background_light": {
+        "name": "Azul claro fondo",
+        "hex": "#EBF0F8",
+        "rgb": [235, 240, 248],
+        "use": "Fondos suaves, filas alternas, secciones."
+      },
+      "text_dark": {
+        "name": "Gris texto",
+        "hex": "#4A4A4A",
+        "rgb": [74, 74, 74],
+        "use": "Texto de cuerpo."
+      },
+      "white": {
+        "name": "Blanco",
+        "hex": "#FFFFFF",
+        "rgb": [255, 255, 255],
+        "use": "Fondos, texto sobre navy."
+      }
+    }
+  },
+  "logo_source_colors": {
+    "_comment": "Valores vivos muestreados directamente del logo digital. Variantes brillantes para pantalla; la paleta oficial de arriba es la de sistema.",
+    "navy_vivid": "#193F70",
+    "green_vivid": "#02953A",
+    "red_vivid": "#E40D36",
+    "navy_deep": "#0A1B35"
+  },
+  "usage_ratio": {
+    "navy": "60%",
+    "white_neutral": "30%",
+    "green": "7%",
+    "red": "3%"
+  }
+}
