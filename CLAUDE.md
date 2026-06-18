@@ -6,6 +6,13 @@ Usa este archivo como guía al generar cualquier diseño, documento, web, presen
 
 GPartner Consulting — consultora tecnológica chilena (Las Condes, Santiago) especializada en **SAP e integración de sistemas**. Se posiciona como **"Technology Partner" / partner estratégico**, no como proveedor. Filosofía rectora: **"Adaptamos tus procesos"**.
 
+## Logo (úsalo siempre)
+
+- **Archivo versionable y renderizable:** `assets/gpartner-logo-color.svg` (SVG con la imagen incrustada). Es el que debes referenciar en webs, HTML, presentaciones y prototipos.
+- **Alta resolución (descarga/impresión):** `assets/gpartner-logo-color.png` (2000×352).
+- **Reglas:** sobre fondo blanco/claro usa la versión a color; sobre navy/oscuro usa la versión blanca. No deformar, no recolorear, mantener área de protección. Para favicon/avatar usa solo el isotipo (la “G” felina). Ver `docs/uso-de-logo.md`.
+- En cualquier maqueta de marca, **incluye el logo** en el encabezado: `<img src="assets/gpartner-logo-color.svg">` (caja blanca si el fondo es oscuro).
+
 ## Paleta (usar exactamente)
 
 | Rol | Hex | Cuándo |
@@ -39,17 +46,18 @@ Frases firma: *"Adaptamos tus procesos"*, *"Technology Partner"*, *"Somos tu par
 
 ## Do / Don't
 
-**Do:** navy como base · verde/rojo como acentos · Arial · mayúsculas con tracking en títulos · mensajes centrados en el beneficio de negocio + acompañamiento.
+**Do:** navy como base · verde/rojo como acentos · Arial · mayúsculas con tracking en títulos · incluir el logo · mensajes centrados en el beneficio de negocio + acompañamiento.
 
 **Don't:** degradados ajenos a la marca · rojo o verde como color dominante · deformar el logo · tono impersonal · jerga técnica sin traducir al valor de negocio.
 
 ## Archivos de referencia
 
+- `design-system.html` — referencia visual viva (logo + paleta + tipografía + componentes).
 - `docs/identidad-de-marca.md` — misión, visión, valores, servicios, equipo.
 - `docs/voz-y-mensajes.md` — tono, taglines, vocabulario.
 - `docs/uso-de-logo.md` — logo y restricciones.
 - `tokens/colors.json`, `tokens/design-tokens.css`, `tokens/tailwind.config.js` — tokens.
-- `assets/` — logos.
+- `assets/` — logos (SVG + PNG).
 
 ---
 *Datos: contacto info@gpartnerc.com · Apoquindo 4700, of. 11, Las Condes · https://gpartnerc.com*
