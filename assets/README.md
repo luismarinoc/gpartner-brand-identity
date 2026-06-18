@@ -1,16 +1,28 @@
 # Assets de logo — GPartner Consulting
 
-Los archivos de logo binarios se entregan en la carpeta local del paquete y pueden subirse al repo arrastrándolos en GitHub (web) o con `git add`.
+## Canonico (máxima calidad, vectorial)
+Usa siempre el **SVG vectorial oficial** — escala sin pérdida, peso mínimo:
 
-## Archivos del paquete
-- `gpartner-logo-color.png` — logo principal a color, 2000×352, fondo transparente.
-- `gpartner-logo-color-small.jpg` — versión reducida, 800×141.
+```
+https://gpartnerc.com/wp-content/uploads/2023/07/LOGO_GPARTNER_FINAL-02-08-2021.svg
+```
 
-## Fuentes oficiales (hospedadas en gpartnerc.com)
-- **Logo color (SVG vectorial):** https://gpartnerc.com/wp-content/uploads/2023/07/LOGO_GPARTNER_FINAL-02-08-2021.svg
-- **Logo blanco (PNG, fondos oscuros):** https://gpartnerc.com/wp-content/uploads/2020/01/LOGO_BLANCO.png
+En HTML/React:
+```html
+<img src="https://gpartnerc.com/wp-content/uploads/2023/07/LOGO_GPARTNER_FINAL-02-08-2021.svg" alt="GPartner Consulting">
+```
+
+`gpartner-logo-color.svg` (en esta carpeta) es un envoltorio que apunta a ese vector.
+
+## Versiones ráster (para alojar en el repo)
+Estos archivos binarios se entregan en la carpeta local del paquete; arrástralos a esta carpeta en GitHub (web) o con `git add` si quieres versionarlos:
+
+- `gpartner-logo-transparent.png` — color, **fondo transparente**, 2000×352, sin pérdida. Recomendado para uso general.
+- `gpartner-logo-transparent-1300.png` — igual, 1300×229 (más liviano).
+- `gpartner-logo-color.png` — color, fondo blanco, 2000×352.
+
+## Otras fuentes oficiales
+- **Logo blanco (fondos oscuros):** https://gpartnerc.com/wp-content/uploads/2020/01/LOGO_BLANCO.png
 - **Favicon:** https://gpartnerc.com/wp-content/uploads/2023/07/cropped-favicon-270x270.png
 
-> Recomendado: solicitar internamente el SVG vectorial original para impresión y escalado sin pérdida.
-
-Ver `../docs/uso-de-logo.md` para reglas de uso.
+> Para fondos oscuros usa el logo blanco; para fondos claros, el color. Ver `../docs/uso-de-logo.md`.

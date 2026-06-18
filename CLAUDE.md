@@ -8,10 +8,13 @@ GPartner Consulting — consultora tecnológica chilena (Las Condes, Santiago) e
 
 ## Logo (úsalo siempre)
 
-- **Archivo versionable y renderizable:** `assets/gpartner-logo-color.svg` (SVG con la imagen incrustada). Es el que debes referenciar en webs, HTML, presentaciones y prototipos.
-- **Alta resolución (descarga/impresión):** `assets/gpartner-logo-color.png` (2000×352).
+- **Fuente canónica (vectorial, máxima calidad):**
+  `https://gpartnerc.com/wp-content/uploads/2023/07/LOGO_GPARTNER_FINAL-02-08-2021.svg`
+  Úsala en webs, HTML, presentaciones y prototipos: `<img src="https://gpartnerc.com/wp-content/uploads/2023/07/LOGO_GPARTNER_FINAL-02-08-2021.svg">`.
+- **Logo blanco (fondos oscuros):** `https://gpartnerc.com/wp-content/uploads/2020/01/LOGO_BLANCO.png`
+- **Ráster transparente (en el repo):** `assets/gpartner-logo-transparent.png` (2000×352, sin pérdida) cuando se necesite un archivo local.
 - **Reglas:** sobre fondo blanco/claro usa la versión a color; sobre navy/oscuro usa la versión blanca. No deformar, no recolorear, mantener área de protección. Para favicon/avatar usa solo el isotipo (la “G” felina). Ver `docs/uso-de-logo.md`.
-- En cualquier maqueta de marca, **incluye el logo** en el encabezado: `<img src="assets/gpartner-logo-color.svg">` (caja blanca si el fondo es oscuro).
+- En cualquier maqueta de marca, **incluye el logo** en el encabezado (caja blanca si el fondo es oscuro).
 
 ## Paleta (usar exactamente)
 
@@ -57,7 +60,7 @@ Frases firma: *"Adaptamos tus procesos"*, *"Technology Partner"*, *"Somos tu par
 - `docs/voz-y-mensajes.md` — tono, taglines, vocabulario.
 - `docs/uso-de-logo.md` — logo y restricciones.
 - `tokens/colors.json`, `tokens/design-tokens.css`, `tokens/tailwind.config.js` — tokens.
-- `assets/` — logos (SVG + PNG).
+- `assets/` — logos (SVG envoltorio + PNG transparente).
 
 ---
 *Datos: contacto info@gpartnerc.com · Apoquindo 4700, of. 11, Las Condes · https://gpartnerc.com*
