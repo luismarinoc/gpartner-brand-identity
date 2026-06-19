@@ -8,13 +8,11 @@ GPartner Consulting — consultora tecnológica chilena (Las Condes, Santiago) e
 
 ## Logo (úsalo siempre)
 
-- **Fuente canónica (vectorial, máxima calidad):**
-  `https://gpartnerc.com/wp-content/uploads/2023/07/LOGO_GPARTNER_FINAL-02-08-2021.svg`
-  Úsala en webs, HTML, presentaciones y prototipos: `<img src="https://gpartnerc.com/wp-content/uploads/2023/07/LOGO_GPARTNER_FINAL-02-08-2021.svg">`.
+- **Logo oficial (vectorial, en el repo):** `assets/gpartner-logo.svg`. Es el archivo canónico — escala sin pérdida. Úsalo en webs, HTML, presentaciones y prototipos: `<img src="assets/gpartner-logo.svg">`.
 - **Logo blanco (fondos oscuros):** `https://gpartnerc.com/wp-content/uploads/2020/01/LOGO_BLANCO.png`
-- **Ráster transparente (en el repo):** `assets/gpartner-logo-transparent.png` (2000×352, sin pérdida) cuando se necesite un archivo local.
-- **Reglas:** sobre fondo blanco/claro usa la versión a color; sobre navy/oscuro usa la versión blanca. No deformar, no recolorear, mantener área de protección. Para favicon/avatar usa solo el isotipo (la “G” felina). Ver `docs/uso-de-logo.md`.
-- En cualquier maqueta de marca, **incluye el logo** en el encabezado (caja blanca si el fondo es oscuro).
+- **Ráster transparente:** `assets/gpartner-logo-transparent.png` (2000×352) cuando se necesite PNG.
+- **Reglas:** sobre fondo blanco/claro usa la versión a color; sobre navy/oscuro usa la versión blanca (o el logo en una caja blanca). No deformar, no recolorear, mantener área de protección. Para favicon/avatar usa solo el isotipo (la “G” felina). Ver `docs/uso-de-logo.md`.
+- En cualquier maqueta de marca, **incluye el logo** en el encabezado.
 
 ## Paleta (usar exactamente)
 
@@ -29,7 +27,7 @@ Regla de oro: **navy + blanco dominan; verde y rojo son acentos, nunca protagoni
 
 ## Tipografía
 
-- **Arial** como tipografía oficial (sistema). En web, fallback a Helvetica Neue / Inter / sans-serif.
+- **Arial / Helvetica** como tipografía oficial (el wordmark usa Helvetica Bold). En web, fallback a Helvetica Neue / Inter / sans-serif.
 - Titulares en **bold navy**. Subtítulos a menudo en **verde, mayúsculas con tracking**.
 - Wordmark y secciones usan **MAYÚSCULAS con letter-spacing** amplio.
 
@@ -49,7 +47,7 @@ Frases firma: *"Adaptamos tus procesos"*, *"Technology Partner"*, *"Somos tu par
 
 ## Do / Don't
 
-**Do:** navy como base · verde/rojo como acentos · Arial · mayúsculas con tracking en títulos · incluir el logo · mensajes centrados en el beneficio de negocio + acompañamiento.
+**Do:** navy como base · verde/rojo como acentos · Arial/Helvetica · mayúsculas con tracking en títulos · incluir el logo · mensajes centrados en el beneficio de negocio + acompañamiento.
 
 **Don't:** degradados ajenos a la marca · rojo o verde como color dominante · deformar el logo · tono impersonal · jerga técnica sin traducir al valor de negocio.
 
@@ -60,7 +58,7 @@ Frases firma: *"Adaptamos tus procesos"*, *"Technology Partner"*, *"Somos tu par
 - `docs/voz-y-mensajes.md` — tono, taglines, vocabulario.
 - `docs/uso-de-logo.md` — logo y restricciones.
 - `tokens/colors.json`, `tokens/design-tokens.css`, `tokens/tailwind.config.js` — tokens.
-- `assets/` — logos (SVG envoltorio + PNG transparente).
+- `assets/` — logos (SVG oficial + PNG transparente).
 
 ---
 *Datos: contacto info@gpartnerc.com · Apoquindo 4700, of. 11, Las Condes · https://gpartnerc.com*
